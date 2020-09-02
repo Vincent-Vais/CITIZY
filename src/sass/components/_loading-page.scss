@@ -1,0 +1,29 @@
+.loading-page {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: #2c3e50;
+    font-size: 10rem;
+    font-weight: 300;
+  }
+  &__icon {
+    color: #9b59b6;
+    font-size: 10rem;
+    margin-top: -20rem;
+    margin-bottom: 10rem;
+    animation: spinLoader 3s infinite linear;
+  }
+  &__bar {
+    width: 80%;
+    height: 0.5rem;
+    background-color: black;
+    animation: progressBar 30s ease-in-out;
+    align-self: start;
+  }
+}

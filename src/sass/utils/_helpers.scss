@@ -1,0 +1,56 @@
+// Text
+.u-heading-primary {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.u-heading-secondary {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+  word-spacing: 1px;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+}
+
+.u-heading-tertiary {
+  text-align: right;
+  font-size: 5rem;
+  font-weight: 100;
+  word-spacing: 1px;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+}
+
+.u-text-primary {
+  font-size: 2rem;
+}
+
+// Colors
+.u-color-primary {
+  color: $color-primary !important;
+}
+
+// Margins
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+.u-margin-top-huge {
+  margin-top: 18rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+// Animating
+.u-hide-section {
+  animation: hidePage 2.5s ease-in forwards;
+}
+
+.u-show-section {
+  animation: hidePage 2.5s ease-in reverse;
+}

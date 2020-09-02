@@ -1,0 +1,14 @@
+#section-landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    rgba(#34495e, 0.7) 0%,
+    rgba(#2c3e50, 0.7) 50%,
+    rgba(#fff, 1) 50%
+  );
+  z-index: 1;
+}

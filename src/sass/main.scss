@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+@import "./utils/variables";
+@import "./utils/helpers";
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./base/functions";
+
+@import "./components/bg-video";
+@import "./components/search-bar";
+@import "./components/landing-poper";
+@import "./components/results-poper";
+@import "./components/close-btn";
+@import "./components/loading-page";
+
+@import "./layout/main";
+@import "./layout/landing";
+@import "./layout/results";
+@import "./layout/loader";
+
+.description {
+  font-size: 14px;
+  color: #9e9e9e;
+  background: red;
+}
+.awful-selfie {
+  width: 300px;
+  height: 300px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

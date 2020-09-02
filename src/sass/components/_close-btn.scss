@@ -1,0 +1,12 @@
+.close-btn {
+  font-size: 6rem;
+  z-index: 3;
+  color: #636e72;
+
+  &:hover {
+    color: $color-primary;
+  }
+  &.animate {
+    animation: hideLandPoper 2s ease-in forwards;
+  }
+}
