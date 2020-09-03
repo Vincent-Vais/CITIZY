@@ -80,10 +80,12 @@ export class MainController {
       this.key
     ) {
       this.ready = false;
+      this.mainView.showLoaderList();
       const data = await this.fetchData(this.url, this.key);
       console.log(data);
       const markup = this.mainModel.addData(JSON.parse(data));
       this.mainView.showMore(markup);
+      this.mainView.hideLoaderList();
     }
   }
   fetchData(url, key) {

@@ -8,6 +8,9 @@ export class MainView {
     );
     this.resultsSection = document.querySelector("#section-results");
     this.resultsLoader = document.querySelector("#results-loader");
+    this.resultsLoaderList = document.querySelectorAll(
+      ".results-poper__loader--list"
+    );
   }
   changePages(element) {
     element.addClass("u-hide-section");
@@ -68,5 +71,15 @@ export class MainView {
   }
   showMoreEbay(markup) {
     this.ebayContainer.insertAdjacentHTML("beforeend", markup);
+  }
+  showLoaderList() {
+    Array.from(this.resultsLoaderList).forEach(
+      (loader) => (loader.hidden = false)
+    );
+  }
+  hideLoaderList() {
+    Array.from(this.resultsLoaderList).forEach(
+      (loader) => (loader.hidden = true)
+    );
   }
 }
