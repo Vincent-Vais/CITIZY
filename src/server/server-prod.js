@@ -7,8 +7,6 @@ const express = require("express"),
   apiRouter = require("./routes/api");
 
 require("dotenv").config();
-import webpack from "webpack";
-import config from "../../webpack.prod.config.js";
 
 const PORT = process.env.PORT || 3000,
   DIST_DIR = __dirname,
