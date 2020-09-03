@@ -18,7 +18,7 @@ export class MainController {
     };
 
     this.resList = $(".results-poper__list");
-    this.loadSection = $("#section-loader");
+    // this.loadSection = $("#section-loader");
 
     this.ready = false;
     this.url = `/api/results`;
@@ -31,7 +31,7 @@ export class MainController {
     this.handleScroll = this.handleScroll.bind(this);
   }
   init() {
-    this.loadSection.hide();
+    // this.loadSection.hide();
     for (let btn in this.layoutBtns) {
       this.layoutBtns[btn].on("click", this.handlePageChange);
     }
